@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 18%;
+    margin-left: 40%;
+    padding: 20px;
+}
+.first-line{
+    text-align: center;
+    padding: 35px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(240, 230, 201);
+    border-top: 2px solid #eeaa45;
+    color: rgb(58, 73, 33);
+}
+.container{
+    width: 750px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+}
+.image{
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 10px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.autor-img{
+    color: darkgray;
+    text-align: center;
+}
+.underimg{
+    border-left: 2px solid rgb(238, 176, 53) ;
+    padding: 20px;
+}
+.orange{
+    color: chocolate;
+}
+.green{
+    color: cadetblue;
+    text-decoration: underline;
+}
+.Ingredients{
+    color: rgb(57, 56, 56);
+    font-size: 25px;
+    margin: 20px;
+}
+.divisore{
+    color: rgb(151, 237, 237);
+    margin: 20px;
+}
+.first-list{
+    padding: 20px;
+}
+.second-list{
+    padding: 20px;
+}
+.method{
+    color: rgb(57, 56, 56);
+    font-size: 25px;
+   padding: 20px;
+}
+.title-second-list{
+    padding: 20px;
+}
+li{
+    padding: 13px;
+}
+.last-text{
+    padding-left: 13px;
+}
+.last-line{
+    padding: 20px;
+    text-align: center;
+}
