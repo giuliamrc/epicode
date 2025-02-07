@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+}
+
+body{
+    margin: 0 250px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(97, 96, 96);
+    padding: 10px 0px;
+}
+
+.icon-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.icon-header img{
+    width: 25px;
+}
+
+.icon-header button{
+    padding: 8px;
+    background-color: white;
+    color: rgb(97, 96, 96);
+    border: 1px solid rgb(97, 96, 96) ;
+    border-radius: 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container{
+    background-color: rgb(227, 227, 227);
+    padding: 40px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.text-main{
+    margin-right: 50%;
+}
+
+.text-main h1{
+    font-size: 60px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.text-main p{
+    font-weight: lighter;
+    color: rgb(40, 40, 40) ;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.text-main h4{
+    color: rgb(29, 126, 238);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section{
+    width: 48%;
+    display: flex;
+    border: 1px solid rgb(195, 193, 193);
+}
+
+.section-left{
+    padding: 20px;
+}
+
+.section-left h4{
+    color: rgb(29, 126, 238) ;
+    padding: 10px 0;
+}
+
+.section-left h1{
+    font-weight: 400;
+}
+
+.section-left h6{
+    color: rgb(192, 184, 184);
+    padding: 5px 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.section-left p{
+    color: rgb(97, 96, 96) ;
+    padding: 10px 0;
+}
+
+.grey-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    
+
+}
+
+.two-tabs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    margin: 20px 0;
+    gap: 30px;
+    width: 100%;
+}
+
+.main-flex{
+    width: 100%;
+    color: rgb(97, 96, 96);
+    
+}
+
+.main-flex hr{
+    margin: 20px 0;
+}
+
+.main-flex p{
+    margin: 10px 0;
+}
+
+.date{
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+span{
+    color: rgb(0, 136, 255);
+}
+
+.red-hr{
+   border: 1px solid red;
+}
+
+.btn-vecchi{
+    color: rgb(0, 136, 255);
+    background-color: white;
+    border: 1px solid rgb(0, 136, 255);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+    display: block;
+    margin: 5px 0;
+}
+
+.btn-vecchi:hover{
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+
+.btn-nuovi{
+    color: rgb(97, 96, 96);
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(97, 96, 96);
+    border-radius: 5px;
+}
+
+.flex-right{
+    width: 40%;
+    
+}
+
+.list-items{
+    margin: 10px 0;
+}
+
+.grey{
+    background-color: rgba(238, 238, 238, 0.878);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.link-right{
+    margin: 10px 0;
+}
+
+.last-line{
+    text-align: center;
+}
+ 
+.final-link{
+    color: rgb(0, 136, 255);
+}
+
+.up{
+    text-align: end;
+    margin: 10px 0;
+}
