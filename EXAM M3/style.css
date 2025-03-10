@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.logo{
+    width: 120px;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+}
+
+.right-nav{
+    cursor: pointer;
+}
+
+.right-nav p:hover{
+    font-weight: 600;
+}
+
+.icon-nav{
+    width: 35px;
+}
+
+.dropdown img{
+    width: 20px;
+}
+
+.btn-dropdown{
+    border-color: 1px solid white;
+    border-width: 0;
+}
+
+
+.menu-icon{
+    color: #a1a1a1;
+    border: 1px solid #a1a1a1 ;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu-icon:hover{
+    border: 2px solid #a1a1a1;
+}
+
+.swiper-slide{
+    width: 310px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.swiper-slide:hover{
+    transform: scale(1.1);
+}
+
+.space{
+    height: 20px;
+}
+
+footer{
+    cursor: pointer;
+   
+}
+
+.container{
+   width: 100%; 
+   margin-top: 10px;
+}
+@media (min-width:768px ){
+    .container{
+        width: 50%;
+        margin-top: 180px;
+    }
+}
+
+.icon-brands{
+    color: #a1a1a1;
+    font-size: 30px;
+}
+
+.foot-info{
+    color: #a1a1a1;
+}
+
+.foot-info p:hover{
+   font-weight: 600;
+}
+
+.btn-custom{
+    color: #a1a1a1;
+    background-color: black;
+    border: 1px solid #a1a1a1;
+    padding: 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.btn-custom:hover{
+    background-color: #a1a1a1;
+    color: black;
+}
+
+.copyright{
+    font-size: 12px;
+    color: #a1a1a1;
+}

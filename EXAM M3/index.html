@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container-fluid">
+            <div class="d-flex align-items-center w-100">
+                <a href="https://www.netflix.com/it/" class="navbar-brand">
+                    <img class="logo" src="./assets/imgs/Netflix_Logo_RGB.png" alt="logo">
+                </a>
+
+                <ul class="d-flex align-items-center list-unstyled gap-3 m-0 w-100 d-none d-lg-flex">
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#tv-shows" class="nav-link">Shows</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Movies</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Recently Added</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">My List</a>
+                    </li>
+                </ul>
+
+                <div class=" right-nav d-flex align-items-center justify-content-end w-100 m-0 gap-3">
+                    <img class="icon-nav "
+                        src="https://www.citypng.com/public/uploads/preview/search-explore-white-icon-transparent-png-701751695037015aogz4s2rh6.png"
+                        alt="search">
+                    <p class="m-0">KIDS</p>
+                    <img class="icon-nav" src="./pngfind.com-bell-icon-png-50581.png" alt="ring bell">
+
+                    <div class="dropdown ">
+                        <button class="btn-dropdown p-2 text-white bg-black dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+                                alt="profile">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">
+                                    <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+                                        alt="profile">
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+                                        alt="profile">
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg"
+                                        alt="profile">
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--FINE NAVBAR-->
+
+    <!--INIZIO SWIPER SECTION-->
+    <section>
+        <div id="tv-shows" class="d-flex justify-content-start align-items-center gap-3 m-4">
+
+            <h2 class="m-0">Shows</h2>
+            <div class="dropdown d-flex align-items-center justify-content-start">
+                <button class="btn-dropdown dropdown-toggle p-2 text-white w-100 bg-black" type="button"
+                    data-bs-toggle="dropdown">
+                    Genres
+                </button>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">
+                            Thriller
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            Romantic
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            Crime
+                        </a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-end align-items-center w-100 ">
+                <i class="fa-solid fa-bars menu-icon"></i>
+                <i class="fa-solid fa-dice-four menu-icon"></i>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="m-4">
+        <h5 class="m-0">Trending Now</h5>
+    </div>
+
+    <div class="container-fluid">
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/3.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/4.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/5.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/6.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/7.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/8.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/9.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+
+    <div class="m-4">
+        <h5 class="m-0">Watch It Again</h5>
+    </div>
+
+    <div class="container-fluid">
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/10.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/11.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/12.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/13.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/14.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/15.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/16.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/17.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+
+    <div class="m-4">
+        <h5 class="m-0">New Releases</h5>
+    </div>
+
+    <div class="container-fluid">
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/4.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/18.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/16.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/7.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/14.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/15.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/16.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-fluid" src="./assets/imgs/movies/17.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+    <!--FINE SWIPER SECTION-->
+
+    <!-- INIZIO FOOTER-->
+    <footer class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-12 d-flex gap-3 mt-4 mb-4">
+                <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook icon-brands"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram icon-brands"></i>
+                </a>
+                <a href="https://x.com/">
+                    <i class="fa-brands fa-twitter icon-brands"></i>
+                </a>
+                <a href="https://www.youtube.com/">
+                    <i class="fa-brands fa-youtube icon-brands"></i>
+                </a>
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <div class="foot-info d-flex flex-column  justify-content-center w-100 ">
+                    <p>Audio and subtitles</p>
+                    <p>Media Center</p>
+                    <p>Privacy</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="foot-info d-flex flex-column justify-content-center w-100 ">
+                    <p>Audio Description</p>
+                    <p>Investor Relations</p>
+                    <p>Legal Notices</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="foot-info d-flex flex-column justify-content-center w-100">
+                    <p>Help Center</p>
+                    <p>Jobs</p>
+                    <p>Cookie Preferences</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="foot-info d-flex flex-column justify-content-center w-100  ">
+                    <p>Gift Cards</p>
+                    <p>Terme of Use</p>
+                    <p>Corporate Information</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn-custom">Service Code</button>
+            </div>
+            <div class="col-12">
+                <p class="copyright">©1997-2019 Netflix, Inc. {0odf0ood000d}</p>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!--FINE FOOTER-->
+
+    <script src="https://kit.fontawesome.com/4a9b64a7ee.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
